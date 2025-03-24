@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Sentiment Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🤖 AI Sentiment Dashboard</h1>
+      <p>Simulated news-based sentiment analysis using AI-style logic</p>
+      <button id="toggleMode">🌙 Toggle Dark Mode</button>
+    </header>
+
+    <main>
+      <section class="content">
+        <button id="refreshBtn">🔄 Refresh Sentiment</button>
+        <ul id="sentimentList"></ul>
+        <canvas id="sentimentChart"></canvas>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
